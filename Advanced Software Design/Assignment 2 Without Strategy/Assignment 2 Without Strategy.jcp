@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>Assignment 2 Without Strategy</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK version 1.7.0_03</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>Assignment_2_Without_Strategy</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<folderitem>
+				<path>src\Superheroes</path>
+			</folderitem>
+			<folderitem>
+				<path>src\Superheroes\Heroes</path>
+			</folderitem>
+			<fileitem>
+				<path>src\Assignment_2_Without_Strategy.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Superheroes\Superhero.java</path>
+				<folder>src\Superheroes</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Superheroes\Heroes\CaptainAmerica.java</path>
+				<folder>src\Superheroes\Heroes</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Superheroes\Heroes\Hulk.java</path>
+				<folder>src\Superheroes\Heroes</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Superheroes\Heroes\SpiderMan.java</path>
+				<folder>src\Superheroes\Heroes</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Superheroes\Heroes\Wolverine.java</path>
+				<folder>src\Superheroes\Heroes</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>

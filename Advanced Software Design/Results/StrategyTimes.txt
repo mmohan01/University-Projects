@@ -1,0 +1,1 @@
+Elapsed Times (in nanoseconds): 5917530, 163354, 136413, 131282, 129999.
