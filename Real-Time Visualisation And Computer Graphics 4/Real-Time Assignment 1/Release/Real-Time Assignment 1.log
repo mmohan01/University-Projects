@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  Real-Time Assignment 1.cpp
+c:\users\mmoha\desktop\executables\projects\year 3\real-time visualisation and computer graphics 4\executables\real-time assignment 1\real-time assignment 1.cpp(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\mmoha\desktop\executables\projects\year 3\real-time visualisation and computer graphics 4\executables\real-time assignment 1\real-time assignment 1.cpp(416): warning C4042: 'orbitSpeed': has bad storage class
+c:\users\mmoha\desktop\executables\projects\year 3\real-time visualisation and computer graphics 4\executables\real-time assignment 1\real-time assignment 1.cpp(416): warning C4042: 'orbitIncline': has bad storage class
+c:\users\mmoha\desktop\executables\projects\year 3\real-time visualisation and computer graphics 4\executables\real-time assignment 1\real-time assignment 1.cpp(417): warning C4042: 'orbitDistance': has bad storage class
+c:\users\mmoha\desktop\executables\projects\year 3\real-time visualisation and computer graphics 4\executables\real-time assignment 1\real-time assignment 1.cpp(417): warning C4042: 'asteroidRadius': has bad storage class
+  Generating code
+  Finished generating code
+  Real-Time Assignment 1.vcxproj -> C:\Users\mmoha\Desktop\Executables\Projects\Year 3\Real-Time Visualisation And Computer Graphics 4\Executables\Release\Real-Time Assignment 1.exe
+c:\users\mmoha\desktop\executables\projects\year 3\real-time visualisation and computer graphics 4\executables\real-time assignment 1\glut.h(146): warning C28251: Inconsistent annotation for 'exit': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(51). 
