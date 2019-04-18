@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{707bc0b3-ef78-4ba2-9108-5f0ec464cb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{78fadbef-2d97-426e-9841-cc812670b4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes - Static Inheritance">
+      <UniqueIdentifier>{33097b5d-eca5-4976-84bc-a442a1c1c716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes - Static Inheritance">
+      <UniqueIdentifier>{9ad03038-3d61-44d1-a385-feb5f6d1eea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes - Dynamic Inheritance">
+      <UniqueIdentifier>{6510e7ee-5388-4198-b3bc-b44c1218e048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes - Dynamic Inheritance">
+      <UniqueIdentifier>{9af78503-ae5c-4967-b8da-03f28445c7eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main Program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Methods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleSI.h">
+      <Filter>Header Files\Shapes - Static Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSI.h">
+      <Filter>Header Files\Shapes - Static Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="RectSI.h">
+      <Filter>Header Files\Shapes - Static Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareSI.h">
+      <Filter>Header Files\Shapes - Static Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeSI.h">
+      <Filter>Header Files\Shapes - Static Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleDI.h">
+      <Filter>Header Files\Shapes - Dynamic Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeDI.h">
+      <Filter>Header Files\Shapes - Dynamic Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDI.h">
+      <Filter>Header Files\Shapes - Dynamic Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareDI.h">
+      <Filter>Header Files\Shapes - Dynamic Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="RectDI.h">
+      <Filter>Header Files\Shapes - Dynamic Inheritance</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Methods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleSI.cpp">
+      <Filter>Source Files\Shapes - Static Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSI.cpp">
+      <Filter>Source Files\Shapes - Static Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="RectSI.cpp">
+      <Filter>Source Files\Shapes - Static Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareSI.cpp">
+      <Filter>Source Files\Shapes - Static Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleDI.cpp">
+      <Filter>Source Files\Shapes - Dynamic Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeSI.cpp">
+      <Filter>Source Files\Shapes - Static Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeDI.cpp">
+      <Filter>Source Files\Shapes - Dynamic Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDI.cpp">
+      <Filter>Source Files\Shapes - Dynamic Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareDI.cpp">
+      <Filter>Source Files\Shapes - Dynamic Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="RectDI.cpp">
+      <Filter>Source Files\Shapes - Dynamic Inheritance</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
