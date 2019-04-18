@@ -1,0 +1,88 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:Command="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP8"
+    x:Class="Scattr.Views.ContactsView"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True"
+    Background="#FFDBDBDB">
+
+    <phone:PhoneApplicationPage.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FF8CA8BF"/>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+	<phone:PhoneApplicationPage.FontFamily>
+		<StaticResource ResourceKey="PhoneFontFamilyNormal"/>
+	</phone:PhoneApplicationPage.FontFamily>
+	<phone:PhoneApplicationPage.FontSize>
+		<StaticResource ResourceKey="PhoneFontSizeNormal"/>
+	</phone:PhoneApplicationPage.FontSize>
+	<phone:PhoneApplicationPage.Foreground>
+		<StaticResource ResourceKey="PhoneForegroundBrush"/>
+	</phone:PhoneApplicationPage.Foreground>
+	<phone:PhoneApplicationPage.DataContext>
+		<Binding Path="LoginScreen" Source="{StaticResource Locator}"/>
+	</phone:PhoneApplicationPage.DataContext>
+<!--Grid set the default background and contains all the objects of the screen-->
+	<Grid x:Name="LayoutRoot" Background="#FFDBDBDB">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" MinHeight="224"/>
+			<RowDefinition />
+		</Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<Image Height="100" Source="/Assets/Logo/Scattr Logo.png" HorizontalAlignment="Left"/>
+			<TextBlock Text="Contacts" Style="{StaticResource PhoneTextTitle1Style}" Margin="9,-17,161,0" FontFamily="Portable User Interface" Height="96" Foreground="#FF8CA8BF"/>
+		</StackPanel>
+
+		<!--Allows user to scroll through contacts as they extend beyond the bottom of the page-->
+		<ScrollViewer Grid.Row="1">
+            <!--ContentPanel - place additional content here-->
+			<Grid x:Name="ContentPanel" Height="637" HorizontalAlignment="Center">
+
+				<!--Represents the letter 'R'-->
+				<Rectangle Fill="#FFD24351" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,0,0,0"/>
+				<TextBlock x:Name="Alphabet" Text="r"  Foreground="White" Width="100" Height="100" FontSize="52" Margin="28,10,352,527"/>
+
+				<Image Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Assets/BusinessCard/RRBusinessCard.png" Margin="10,150,-10,0">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseLeftButtonDown">
+                            <Command:EventToCommand x:Name="GoToContactDetailsPageCommand"
+                            Command="{Binding GoToContactDetailsPageCommand, Mode=OneWay}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Image>
+				<Rectangle  Height="45" Stroke="Black" Margin="36,343,16,249">
+					<Rectangle.Fill>
+						<SolidColorBrush Color="Black" Opacity="0.5"/>
+					</Rectangle.Fill>
+				</Rectangle>
+
+				<!--Adds interests along the bottom of the card and can scroll across to view them-->
+				<ScrollViewer Margin="36,334,16,236"  ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+					<StackPanel Orientation="Horizontal">
+						<TextBlock x:Name="Skill1" Text="Hadoop"  Foreground="White" Width="136" Height="49" FontSize="32"/>
+						<TextBlock x:Name="Skill2" Text="Ruby"  Foreground="White" Width="136" Height="49" FontSize="32"/>
+						<TextBlock x:Name="Skill3" Text="Python"  Foreground="White" Width="136" Height="49" FontSize="32"/>
+						<TextBlock x:Name="Skill4" Text="C++"  Foreground="White" Width="136" Height="49" FontSize="32"/>
+						<TextBlock x:Name="Skill5" Text="Java"  Foreground="White" Width="136" Height="49" FontSize="32"/>
+					</StackPanel>
+				</ScrollViewer>
+			</Grid>
+		</ScrollViewer>
+
+		<Grid x:Name="BottomPanel" Grid.Row="1"  Background="#FFA4AAAE" Margin="0,462,0,0">
+			<Image Source="/Assets/Arrowhead-Left-01.png"  Height="83" HorizontalAlignment="Center" Margin="180,-1,201,0" Width="99" MouseLeftButtonDown="BackImage_Click" VerticalAlignment="Center"/>
+		</Grid>
+	</Grid>
+
+</phone:PhoneApplicationPage>
