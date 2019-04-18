@@ -1,0 +1,58 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCoursework.h" caret="346" fromTop="16" />
+      <File id="d:Miscellaneous Files/f:atlsimpstr.h" caret="12200" fromTop="0" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.h" caret="110" fromTop="7" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="7274" fromTop="65" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="4381" fromTop="16" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="211" fromTop="8" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="4189" fromTop="13" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6191" fromTop="24" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6191" fromTop="22" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6497" fromTop="19" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6647" fromTop="20" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="8630" fromTop="27" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6647" fromTop="2" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="302" fromTop="13" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="4381" fromTop="10" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6191" fromTop="26" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6191" fromTop="24" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="8502" fromTop="30" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="4953" fromTop="19" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6184" fromTop="26" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="5275" fromTop="20" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="4805" fromTop="10" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6645" fromTop="25" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="3993" fromTop="14" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="5215" fromTop="33" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="4726" fromTop="13" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="7600" fromTop="17" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="6964" fromTop="25" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="5504" fromTop="13" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="8568" fromTop="23" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="70" fromTop="1" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="7509" fromTop="17" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="8096" fromTop="22" />
+      <File id="4E03748A-0EA3-43E5-8ED5-E09842474329/f:MMCourseworkDlg.cpp" caret="7274" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

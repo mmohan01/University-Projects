@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  MMCoursework.cpp
+  MMCourseworkDlg.cpp
+c:\users\mmoha\desktop\executables\projects\year 2\programming in c and c++\executables\mmcoursework\mmcourseworkdlg.cpp(195): warning C4018: '<': signed/unsigned mismatch
+c:\users\mmoha\desktop\executables\projects\year 2\programming in c and c++\executables\mmcoursework\mmcourseworkdlg.cpp(254): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 228 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MMCoursework.vcxproj -> C:\Users\mmoha\Desktop\Executables\Projects\Year 2\Programming In C And C++\Executables\MMCoursework\Release\MMCoursework.exe
