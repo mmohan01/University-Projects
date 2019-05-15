@@ -1668,10 +1668,7 @@ int main(int argc, char* argv[])
 	// Keeps command window open
 	// until any button is pressed.
 	if (test == 2)
-	{
-		cin.sync();
-		cin.get();
-	}
+		system("PAUSE");
 	return 0;
 }
 

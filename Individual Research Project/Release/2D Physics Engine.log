@@ -1,6 +1,24 @@
-﻿  Generating code
-  0 of 1040 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+﻿  stdafx.cpp
+  Circle.cpp
+  CircleDI.cpp
+  CircleSI.cpp
+  Collisions.cpp
+  Line.cpp
+  LineDI.cpp
+  LineSI.cpp
+  Main Program.cpp
+  Methods.cpp
+c:\users\mmoha\desktop\executables\projects\year 4\individual research project\2d physics engine\2d physics engine\methods.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  Rect.cpp
+  RectDI.cpp
+  RectSI.cpp
+  ShapeDI.cpp
+  ShapeSI.cpp
+  Square.cpp
+  SquareDI.cpp
+  SquareSI.cpp
+  Generating code
+  All 1040 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  2D Physics Engine.vcxproj -> C:\Users\mmoha\Desktop\Executables\Projects\Year 4\Individual Research Project\Executables\2D Physics Engine\Release\2D Physics Engine.exe
+  2D Physics Engine.vcxproj -> C:\Users\mmoha\Desktop\Executables\Projects\Year 4\Individual Research Project\2D Physics Engine\Release\2D Physics Engine.exe
